@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    text-transform: uppercase;
+}
+
+.logo{
+    font-size: 2em;
+    color: white;
+    user-select: none ;
+}
+
+.menu a {
+    position: relative;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 80px;
+}
+
+
+
+.logo3 h2{
+   margin: 150px;
+   font-size: 60px;
+   font-family: sans-serif;
+   font-weight: 600;
+  
+}
+
+.logo3 p{
+    font-size: 30px;
+    line-height: 2pc;
+    margin-left: 50px;
+    font-family: sans-serif;
+ }
+
+ .logo4{
+   float: right;
+ }
+
