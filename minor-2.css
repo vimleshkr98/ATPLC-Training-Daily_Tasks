@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  nav{
+    width: 100%;
+    position: sticky;
+    height: 75px;
+    line-height: 70px;
+    padding: 0px 100px;
+    background-color: blue;
+  }
+  
+  nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    float: left;
+    text-transform: uppercase;
+  }
+  
+  nav ul{
+    float: right;
+  }
+
+  nav li{
+    display: inline-block;
+    list-style: none;
+  }
+
+  nav li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 0px 30px;
+    text-transform: uppercase;
+  }
+  
+  .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     }
+
+  .col-1{
+        flex-basis: 55%;
+        min-width: 300px;
+  }
+
+  .col-1 h2{
+    font-size: 60px;
+    line-height: 60px;
+    margin: 25px 0;
+   
+  }
+
+  .col-1 p{
+    font-size: 25px;
+    font-family: sans-serif;
+  }
+
+    .col-1 button{
+        display: inline-block;
+        background: #ff523b;
+        color: white;
+        padding: 8px 30px;
+        margin: 30px 0;
+        border-radius: 30px;
+    }
+
+
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+      }
+
+      .gallery1{
+        width: 20%;
+        margin: 15px;
+        box-sizing: border-box;
+        float: left;
+        border-radius: 20px;
+        cursor: pointer;
+        padding-top: 10px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25)
+        0 10px 10px rgba(0,0,0,0.22);
+        transition: -4s;
+        background: #f2f2f2;
+
+      }
+      
+      .gallery:hover{
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+        0 3px 6px rgba(0,0,0,0.23);
+        transform: translate(0px -8px);
+      }
+
+      img{
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+      }
+
+      .gallery1 p{
+        text-align: center;
+        padding-top: 0 8px;
+      }
+
+      .gallery1 h3{
+        text-align: center;
+        font-size: 26px;
+        margin: 0px;
+        color: #222f3e;
+      }
+
+      .gallery1 button{
+        text-align: center;
+        font-size: 24px;
+        color: #fff;
+        width: 100%;
+        padding: 15px;
+        border: 0;
+        outline:none;
+        cursor: pointer;
+        margin-top: 5px;
+        border-bottom-right-radius:20px;
+        border-bottom-left-radius: 20px ;
+      }
+
+      
+      .buy-1{
+        background: #2183a2;
+     }
+
+     .buy-2{
+       background: #3b3ebe;
+     }
+
+     .buy-3{
+       background: #060b0b;
+     }
+
+     .buy-4{
+       background: #ff9f43;
+     }

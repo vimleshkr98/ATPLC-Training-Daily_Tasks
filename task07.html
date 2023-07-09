@@ -1,68 +1,74 @@
 <html>
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="device-width, intial-scale1.0">
-        <title>table2</title>
-        <link rel="stylesheet" type="text/css" href="table07.css">
+        <style>
+            table, th ,td{
+                border: 1px solid black;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            th{
+                background-color: red;
+            }
+
+            td{
+                background-color: magenta;
+                color: black;
+            }
+            th,td{
+                width: 400px;
+                height: 50px;
+            }
+
+            td:hover{
+                background-color: yellow;
+            }
+        </style>
+        <title>table</title>
     </head>
     <body>
-        <nav>
-            <div class="logo">
-                <p>Navbar</p>
-            </div>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Service</a></li>
-            </ul>
-        </nav>
-        <table>
-            <tr>
-                <th>S.NO</th>
-                <th>Name</th>
-                <th>subject</th>
-               
-            </tr>
+       <table>
+        <tr>
+            <th>Name</th>
+            <th >Resigtration No.</th>
+            <th colspan="2">CGPA</th>
+        </tr>
+         
+        <tr>
+            <th></th>
+            <th></th>
+            <th>1st sem</th>
+            <th>2nd sem</th>
+        </tr>
+      
 
-            <tr>
-                <td>1.</td>
-                <td>DR. Tanmoy Rath</td>
-                <td>Chemistry</td>
-            </tr>
+        <tr>
+          <td>Aman Roy</td>
+          <td>21105113013</td>
+          
+          <td>9.05</td>
+          <td>8.23</td>
+        </tr>
 
-            <tr>
-                <td>2.</td>
-                <td>DR. Aditya Singh</td>
-                <td>Maths</td>
-            </tr>
+        <tr>
+            <td>Suraj Kumar</td>
+            <td>21105113025</td>
+            <td>5.17</td>
+            <td>7.12</td>
+        </tr>
 
-            <tr>
-                <td>3.</td>
-                <td>DR.Gyanendra Prakash sukla</td>
-                <td>Physics</td>
-            </tr>
+        <tr>
+            <td>Jaydeep</td>
+            <td>21105113033</td>
+            <td>6.21</td>
+            <td>6.32</td>
+        </tr>
 
-            <tr>
-                <td>4.</td>
-                <td>DR.Saket kumar Singh</td>
-                <td>BEE</td>
-            </tr>
-
-            <tr>
-                <td>5.</td>
-                <td>Mr.Umesh Kumar</td>
-                <td>PPS</td>
-            </tr>
-
-            <tr>
-                <td>6.</td>
-                <td>Mr.Birendra kumar</td>
-                <td>Workshop</td>
-            </tr>
-
-           
-        </table>
+        <tr>
+            <td>Nandni Kumari</td>
+            <td>21105133055</td>
+            <td>8.71</td>
+            <td>8.32</td>
+        </tr>
+       </table>
     </body>
 </html>
