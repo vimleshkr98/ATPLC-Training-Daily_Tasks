@@ -1,0 +1,41 @@
+
+<html>
+    <head>
+        <title>condition </title>
+    </head>
+    <body>
+        <h2>A function that filters out negative numbers</h2>
+
+        <script>
+            let arr = [2, 22, 13, 5, 6, 61, 23, 7];
+
+            let arr1 = arr.filter(function(val){
+                return val > 10;
+            } );
+
+            console.log(arr1);
+
+            //fibonacci series//
+            var a = 0, b = 1;
+            console.log(a);
+            console.log(b);
+            for(var i=0;i<=10; i++){
+               var temp = a+b;
+               console.log(temp);
+               a = b;
+               b = temp;
+            }
+
+            // multiplication//
+            function solution(number) {
+            let sum = 0;
+            for (let i = 1; i < number; i++) {
+                if ( i % 3 === 0 || i % 5 === 0){
+                    sum += i;
+                }
+            }
+            return sum;
+        }
+        </script>
+    </body>
+</html>
